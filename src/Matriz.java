@@ -4,9 +4,9 @@ public class Matriz{
         int[][] m = new int [3][3]; // instanciando uma matriz 3x3
         recebeMatriz(m);
         System.err.println("Matriz recebida: ");
-        imprimeMatriz(m);        
+        imprimeMatriz(m);
     }
-    
+
     public static void recebeMatriz(int[][] m){
         Scanner scanner = new Scanner(System.in);
         System.err.println("Digite os valores da matriz 3x3");
